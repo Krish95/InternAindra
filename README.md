@@ -9,9 +9,11 @@
     - delete(key): Delete an already existing element from the list.
     - detectCycleLen(): Find the number of nodes present in the cycle.
     - findlen(): Find the number of nodes in the list.
-   - Working ![Example](https://github.com/Krish95/InternAindra/)
+   - Working Exmaple
+    ![](https://github.com/Krish95/InternAindra/)
 ## Problem 2 : Face detection and Background Blur
   - HAAR cascade and Gaussian Blur was used to achieve the objective. 
   - Has the capability to detect multiple faces in an image and blur the rest. 
   - Made using opencv3 and python3. 
-  - Working ![Example](https://github.com/Krish95/InternAindra/)
+  - Working Example
+    ![](https://github.com/Krish95/InternAindra/)
