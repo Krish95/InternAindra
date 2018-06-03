@@ -52,6 +52,7 @@ class LinkedList:
         i = 0
         newNode = Node(data=data)
 
+        #Insertion at head
         if pos== 0:
             if self.head:
                 newNode.next = self.head
@@ -62,14 +63,17 @@ class LinkedList:
                 self.last = newNode
                 return self.head
 
+        #Insertion at tail
         if pos == self.findlen():
             self.last.next = newNode
             self.last = self.last.next
             return self.last
 
+        #Out of bounds
         if pos > self.findlen():
             return -1
             
+        #Find and insert
         curr = self.head
         previous = curr
         next = curr.next
@@ -131,13 +135,15 @@ class LinkedList:
             previous = current
             current = current.next
 
+        #Handling empty lists
         if not current or current.data != key:
             return None
 
+        #Deletion at Tail
         if current == self.last:  
             self.last = previous
     
-        #unlink
+        #Deletion at head and middle
         if previous is None:
             self.head = current.next
             if self.head == current:
@@ -152,6 +158,7 @@ class LinkedList:
         """
         Finds the length of a cycle if present else returns 0.
         """
+        #Find beginning of cycle
         len = 0
         nodeset = set()
         temp = self.head
@@ -164,6 +171,7 @@ class LinkedList:
             nodeset.add(temp)
             temp = temp.next
 
+        #Finding the length
         if start is not None:
             temp = start.next   
             len = 1
