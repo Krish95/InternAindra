@@ -10,7 +10,7 @@
     - detectCycleLen(): Find the number of nodes present in the cycle.
     - findlen(): Find the number of nodes in the list.
    - Working Exmaple
-    ![](https://github.com/Krish95/InternAindra/eg1.jpg)
+    ![Running](https://github.com/Krish95/InternAindra/eg1.jpg)
 ## Problem 2 : Face detection and Background Blur
   - HAAR cascade and Gaussian Blur was used to achieve the objective. 
   - Has the capability to detect multiple faces in an image and blur the rest. 
