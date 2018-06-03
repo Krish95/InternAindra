@@ -16,5 +16,6 @@
   - HAAR cascade and Gaussian Blur was used to achieve the objective. 
   - Has the capability to detect multiple faces in an image and blur the rest. 
   - Made using opencv3 and python3. 
+  - Usage `python3 facedetector.py img`
   - Working Example
     ![](https://github.com/Krish95/InternAindra/)
