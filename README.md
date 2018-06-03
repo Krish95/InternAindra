@@ -18,11 +18,11 @@
   - Made using opencv3 and python3. 
   - Usage `python3 facedetector.py img`
     <p align="center">
-    <img src="https://github.com/Krish95/InternAindra/blob/master/pic1.jpg" title="Running" width="150" height="500" />
+    <img src="https://github.com/Krish95/InternAindra/blob/master/pic1.jpg" title="Running" width="300" height="500" />
     </p>
     <p align="center">
-    <img src="https://github.com/Krish95/InternAindra/blob/master/pic2.jpg" title="Running" width="150" height="500" />
+    <img src="https://github.com/Krish95/InternAindra/blob/master/pic2.jpg" title="Running" width="300" height="500" />
     </p>
     <p align="center">
-    <img src="https://github.com/Krish95/InternAindra/blob/master/pic3.jpg" title="Running" width="150" height="500" />
+    <img src="https://github.com/Krish95/InternAindra/blob/master/pic3.jpg" title="Running" width="300" height="500" />
     </p>
