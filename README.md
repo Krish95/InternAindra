@@ -9,7 +9,9 @@
     - delete(key): Delete an already existing element from the list.
     - detectCycleLen(): Find the number of nodes present in the cycle.
     - findlen(): Find the number of nodes in the list.
-    ![Working](https://github.com/Krish95/InternAindra/blob/master/egx.jpg)
+    <p align="center">
+    <img src="https://github.com/Krish95/InternAindra/blob/master/eg1.jpg" title="Running" width="150" height="500" />
+    </p>
 ## Problem 2 : Face detection and Background Blur
   - HAAR cascade and Gaussian Blur was used to achieve the objective. 
   - Has the capability to detect multiple faces in an image and blur the rest. 
